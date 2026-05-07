@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_list">
+        <item>Select Category...</item>
+        <item>Design &amp; Creative</item>
+        <item>E-commerce &amp; Retail</item>
+        <item>Education</item>
+        <item>Energy &amp; Environment</item>
+        <item>Enterprise Tools</item>
+        <item>Finance</item>
+        <item>Food &amp; Lifestyle</item>
+        <item>Gaming</item>
+        <item>Health &amp; Medical</item>
+        <item>HR &amp; Recruiting</item>
+        <item>Industrial &amp; Manufacturing</item>
+        <item>Internet Platforms</item>
+        <item>Legal, Gov &amp; Nonprofit</item>
+        <item>Marketing &amp; Business</item>
+        <item>Media &amp; Entertainment</item>
+        <item>Misc</item>
+        <item>Mobile</item>
+        <item>Music</item>
+        <item>Other</item>
+        <item>Real Estate &amp; Local</item>
+        <item>Science &amp; Deeptech</item>
+        <item>Social &amp; Communication</item>
+        <item>Sports &amp; Outdoors</item>
+        <item>Technology</item>
+        <item>Travel &amp; Transport</item>
+    </string-array>
+
+    <string-array name="region_list">
+        <item>Select Region...</item>
+        <item>US Northeast</item>
+        <item>US West Coast</item>
+        <item>Eastern Europe</item>
+        <item>UK</item>
+        <item>US South Central</item>
+        <item>Latin America</item>
+        <item>US Midwest</item>
+        <item>China</item>
+        <item>US Southeast</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Canada</item>
+        <item>Australia &amp; NZ</item>
+        <item>Netherlands &amp; Belgium</item>
+        <item>Nordics</item>
+        <item>South/Southeast Asia</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Middle East &amp; North Africa</item>
+        <item>Spain</item>
+        <item>US Mountain West</item>
+        <item>Russia</item>
+        <item>Switzerland</item>
+        <item>Japan &amp; Korea</item>
+        <item>Africa</item>
+        <item>Western Europe (Other)</item>
+    </string-array>
+</resources>

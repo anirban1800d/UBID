@@ -1,0 +1,88 @@
+<resources>
+    <dimen name="radius_logo_ring">18dp</dimen>
+    <dimen name="radius_logo_card">13dp</dimen>
+    <dimen name="radius_field">8dp</dimen>
+    <dimen name="radius_btn">9dp</dimen>
+    <dimen name="radius_tag">6dp</dimen>
+    <dimen name="radius_avatar_btn">8dp</dimen>
+
+    <dimen name="logo_ring_size">64dp</dimen>
+    <dimen name="logo_card_size">48dp</dimen>
+    <dimen name="logo_icon_size">24dp</dimen>
+
+    <dimen name="field_padding_vertical">10dp</dimen>
+    <dimen name="field_padding_horizontal">12dp</dimen>
+    <dimen name="field_icon_size">16dp</dimen>
+    <dimen name="field_icon_margin">8dp</dimen>
+    <dimen name="field_border_width">1dp</dimen>
+
+    <dimen name="btn_padding_vertical">12dp</dimen>
+
+    <dimen name="screen_padding_horizontal">24dp</dimen>
+    <dimen name="screen_padding_top">32dp</dimen>
+    <dimen name="screen_padding_bottom">16dp</dimen>
+
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_lg">16dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="logo_bottom_margin">12dp</dimen>
+    <dimen name="tagline_bottom_margin">20dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_margin_bottom">16dp</dimen>
+    <dimen name="label_bottom_margin">4dp</dimen>
+    <dimen name="field_bottom_margin">10dp</dimen>
+    <dimen name="btn_bottom_margin">10dp</dimen>
+    <dimen name="accent_strip_height">2dp</dimen>
+
+    <dimen name="text_app_name">22sp</dimen>
+    <dimen name="text_tagline">10sp</dimen>
+    <dimen name="text_label">9sp</dimen>
+    <dimen name="text_field">13sp</dimen>
+    <dimen name="text_btn">12sp</dimen>
+    <dimen name="text_forgot">10sp</dimen>
+    <dimen name="text_footer">9sp</dimen>
+    <dimen name="text_or">10sp</dimen>
+    <dimen name="text_signup_note">10sp</dimen>
+
+    <dimen name="status_bar_height">24dp</dimen>
+
+    <dimen name="or_line_height">1dp</dimen>
+
+    <dimen name="screen_padding">6dp</dimen>
+
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="toolbar_padding_horizontal">14dp</dimen>
+    <dimen name="toolbar_title_size">13sp</dimen>
+
+    <dimen name="graph_canvas_min_height">220dp</dimen>
+
+    <dimen name="node_central_radius">40dp</dimen>
+    <dimen name="node_dept_radius">28dp</dimen>
+    <dimen name="node_central_stroke">2dp</dimen>
+    <dimen name="node_dept_stroke">1dp</dimen>
+    <dimen name="edge_stroke">1dp</dimen>
+
+    <dimen name="legend_dot_size">10dp</dimen>
+    <dimen name="legend_text_size">9sp</dimen>
+    <dimen name="legend_item_gap">5dp</dimen>
+    <dimen name="legend_padding_vertical">6dp</dimen>
+
+    <dimen name="card_padding">10dp</dimen>
+    <dimen name="card_radius">8dp</dimen>
+    <dimen name="card_margin_top">6dp</dimen>
+    <dimen name="card_border_width">1dp</dimen>
+    <dimen name="cluster_primary_text_size">10sp</dimen>
+    <dimen name="cluster_meta_text_size">9sp</dimen>
+
+    <dimen name="tag_radius">6dp</dimen>
+    <dimen name="tag_padding_horizontal">8dp</dimen>
+    <dimen name="tag_padding_vertical">3dp</dimen>
+    <dimen name="tag_text_size">9sp</dimen>
+
+    <dimen name="bnav_height">56dp</dimen>
+    <dimen name="bnav_icon_size">20dp</dimen>
+    <dimen name="bnav_label_size">9sp</dimen>
+    <dimen name="bnav_padding_vertical">6dp</dimen>
+</resources>

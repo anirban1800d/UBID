@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Button state selector (pre-API21 fallback) -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_btn_signin_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/bg_btn_signin" />
+</selector>

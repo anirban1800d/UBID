@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Risk bar fill — REVIEW / mid-range (score 50–74): #F9A825, radius 2dp -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#F9A825" />
+    <corners android:radius="2dp" />
+</shape>

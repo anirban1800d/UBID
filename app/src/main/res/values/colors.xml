@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <!--  ── Backgrounds ──  -->
+    <color name="bg_screen">#101E2E</color>
+    <color name="bg_surface">#0D1926</color>
+    <color name="bg_card">#162030</color>
+    <color name="bg_graph_canvas">#0A1520</color>
+    <!--  ── Node fills ──  -->
+    <color name="node_central_fill">#0A2540</color>
+    <color name="node_dept_fill">#0D1F30</color>
+    <!--  ── Node strokes ──  -->
+    <color name="node_central_stroke">#4DB8FF</color>
+    <color name="node_dept_stroke">#1976D2</color>
+    <color name="node_gst_stroke">#3FCF8E</color>
+    <color name="node_mca_stroke">#F9A825</color>
+    <!--  ── Edge / connector line ──  -->
+    <color name="edge_line">#1E3A5A</color>
+    <!--  ── Node text ──  -->
+    <color name="node_text_central">#4DB8FF</color>
+    <color name="node_text_central_id">#804DB8FF</color>
+    <!--  50% alpha  -->
+    <color name="node_text_dept_primary">#5A8AAF</color>
+    <color name="node_text_dept_secondary">#2E5A82</color>
+    <color name="node_text_gst">#3FCF8E</color>
+    <color name="node_text_mca">#F9A825</color>
+    <!--  ── Legend dots ──  -->
+    <color name="legend_dot_central_fill">#0A2540</color>
+    <color name="legend_dot_central_border">#4DB8FF</color>
+    <color name="legend_dot_dept_fill">#0D1F30</color>
+    <color name="legend_dot_dept_border">#1976D2</color>
+    <color name="legend_dot_review_fill">#0D1F30</color>
+    <color name="legend_dot_review_border">#F9A825</color>
+    <color name="legend_text">#2E5A82</color>
+    <!--  ── Cluster info card ──  -->
+    <color name="card_border">#1E3248</color>
+    <color name="cluster_text_primary">#8AB0D0</color>
+    <color name="cluster_meta_text">#3A5F80</color>
+    <!--  ── Tags ──  -->
+    <color name="tag_green_bg">#0D3D2A</color>
+    <color name="tag_green_text">#3FCF8E</color>
+    <!--  ── Brand blues ──  -->
+    <color name="brand_blue">#1976D2</color>
+    <color name="brand_blue_muted">#4DB8FF</color>
+    <!--  ── Borders ──  -->
+    <color name="border_bottom_nav">#1E3045</color>
+    <color name="border_footer">#111F2E</color>
+    <color name="border_card">#1E3248</color>
+    <!--  ── Text ──  -->
+    <color name="text_toolbar">#D0E4F5</color>
+    <color name="text_muted">#5A8AAF</color>
+    <!--  ── Nav ──  -->
+    <color name="nav_active">#4DB8FF</color>
+    <color name="nav_inactive">#4D6A85</color>
+
+
+<!--  ── Background layers ──  -->
+
+<!--  Screen / Activity background  -->
+
+<!--  Status bar, toolbar, bottom nav  -->
+<color name="bg_field">#0D1F30</color>
+<!--  Input field background  -->
+<color name="bg_deep">#0A1520</color>
+<!--  Deepest navy  -->
+
+<!--  (reference only)  -->
+<!--  ── Brand / Primary ──  -->
+
+<!--  Logo card, primary accent  -->
+<color name="brand_blue_dark">#1565C0</color>
+<!--  Sign-in button background  -->
+<color name="brand_blue_light">#42A5F5</color>
+<!--  Gradient highlight  -->
+
+<!--  Active icon, link accent  -->
+<!--  ── Border / Divider ──  -->
+<color name="border_field">#1E3A56</color>
+<!--  Input field border  -->
+
+<!--  Card border  -->
+
+
+<!--  Footer top border  -->
+<color name="divider_center">#1E3A58</color>
+<!--  Horizontal divider center  -->
+<color name="logo_ring_border">#1976D2</color>
+<!--  Logo ring outer border (40% alpha)  -->
+<!--  ── Text ──  -->
+<color name="text_primary">#E8F3FF</color>
+<!--  App name, headings  -->
+<color name="text_secondary">#D0E4F5</color>
+<!--  Toolbar title, body text  -->
+<color name="text_field_value">#5A8AAF</color>
+<!--  Input placeholder / value  -->
+<color name="text_label">#2E5A82</color>
+<!--  Field labels, section labels  -->
+<color name="text_hint_dark">#4A6880</color>
+<!--  Status bar text  -->
+<color name="text_btn_primary">#E3F0FF</color>
+<!--  Sign-in button label  -->
+<color name="text_forgot">#2A4E6E</color>
+<!--  Forgot credentials link  -->
+<color name="text_footer">#1A3350</color>
+<!--  Footer text  -->
+<color name="text_signup_link">#4DB8FF</color>
+<!--  "Sign up →" highlight text  -->
+<!--  ── Tags / Badges ──  -->
+
+<color name="tag_amber_bg">#3A2600</color>
+<color name="tag_amber_text">#F9A825</color>
+<color name="tag_red_bg">#3D150D</color>
+<color name="tag_red_text">#F87171</color>
+<color name="tag_blue_bg">#0A2540</color>
+<color name="tag_blue_text">#4DB8FF</color>
+<!--  ── White (logo icon) ──  -->
+<color name="white">#FFFFFF</color>
+<color name="white_65">#A6FFFFFF</color>
+<color name="white_45">#73FFFFFF</color>
+<color name="white_25">#40FFFFFF</color>
+
+
+
+    <color name="bg_phone_shell">#0B1622</color>
+
+    <color name="bg_surface_dark">#0D1926</color>
+    <color name="bg_surface_mid">#0D1F30</color>
+
+    <!--  Accent / Brand  -->
+    <color name="accent_blue_primary">#1976D2</color>
+    <color name="accent_blue_light">#42A5F5</color>
+    <color name="accent_blue_bright">#4DB8FF</color>
+    <color name="accent_blue_deep">#1565C0</color>
+    <color name="accent_blue_border">#1976D240</color>
+    <!--  Status Tags: Green (Matched)  -->
+
+    <color name="text_subtle">#5A8AAF</color>
+    <color name="text_dim">#2E5A82</color>
+    <color name="text_ghost">#1A3350</color>
+    <color name="text_placeholder">#3A5F80</color>
+    <!--  Borders / Dividers  -->
+    <color name="border_strong">#1E3A56</color>
+    <color name="border_mid">#1E3248</color>
+    <color name="border_soft">#1E3045</color>
+    <!--  Bottom Nav  -->
+
+    <!--  Accent Strip Gradient (start / mid / end for GradientDrawable)  -->
+    <color name="strip_start">#0B1622</color>
+    <color name="strip_mid_1">#1976D2</color>
+    <color name="strip_mid_2">#42A5F5</color>
+    <color name="strip_end">#0B1622</color>
+    <!--  Search / Input  -->
+    <color name="search_icon">#2E5A82</color>
+    <color name="filter_active_outline">#4DB8FF</color>
+    <!--  ── Backgrounds ──  -->
+
+</resources>
