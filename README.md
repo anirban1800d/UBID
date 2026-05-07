@@ -1,0 +1,1 @@
+AI-powered entity resolution for Karnataka business registry. Links records across 40+ State systems, assigns Unified Business Identifiers, and classifies each business as Active, Dormant or Closed with full explainability and human-in-the-loop review.
