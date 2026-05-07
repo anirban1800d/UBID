@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Email / envelope icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="16dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Envelope body -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/text_label"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M2,4 L22,4 Q22,4 22,7 L22,17 Q22,20 19,20 L5,20 Q2,20 2,17 Z" />
+
+    <!-- Envelope flap line -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/text_label"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M2,8 L12,14 L22,8" />
+
+</vector>

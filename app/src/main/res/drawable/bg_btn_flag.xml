@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ✗ Flag different button: bg #3D150D, border #F87171@25%, radius 7dp, ripple -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#F8717140">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#3D150D" />
+            <stroke android:width="0.5dp" android:color="#F8717140" />
+            <corners android:radius="7dp" />
+        </shape>
+    </item>
+</ripple>

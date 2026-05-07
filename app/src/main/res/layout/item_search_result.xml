@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    BGIE App — Search Result Item
+    Layout: item_search_result.xml
+    Used by: rvSearchResults in fragment_smart_search.xml
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/bg_business_card_pressed"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="10dp">
+
+    <!-- Business name -->
+    <TextView
+        android:id="@+id/tvResultName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@id/tvRiskTag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Ramesh Steel Works" />
+
+    <!-- Risk score tag  e.g. "Risk 72" -->
+    <TextView
+        android:id="@+id/tvRiskTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/bg_tag_score_amber"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Risk 72"
+        tools:textColor="@color/tag_amber_text" />
+
+    <!-- UBID in monospace -->
+    <TextView
+        android:id="@+id/tvResultUbid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/text_dim"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvResultName"
+        tools:text="IN-MH-PUNE-2024-00831" />
+
+    <!-- Meta: last inspection -->
+    <TextView
+        android:id="@+id/tvResultMeta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/text_dim"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvResultUbid"
+        tools:text="Last inspection: 11 months ago" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

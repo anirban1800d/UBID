@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_screen"
+    android:fitsSystemWindows="true">
+
+    <View
+        android:id="@+id/view_accent_strip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/accent_strip_height"
+        android:background="@drawable/bg_accent_strip" />
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/toolbar_padding_horizontal"
+        android:paddingEnd="@dimen/toolbar_padding_horizontal"
+        android:background="@color/bg_surface">
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_graph_view"
+            android:textColor="@color/text_toolbar"
+            android:textSize="@dimen/toolbar_title_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_auid_input_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@color/bg_surface">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_auid"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:hint="@string/hint_enter_buid">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_buid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:imeOptions="actionSearch"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_load_graph"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_load_graph"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <FrameLayout
+            android:id="@+id/fl_graph_canvas"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_graph_canvas"
+            android:minHeight="@dimen/graph_canvas_min_height"
+            android:contentDescription="@string/cd_graph_canvas">
+
+            <my.n.ubid.NetworkGraphView
+                android:id="@+id/network_graph"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_legend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/legend_padding_vertical"
+            android:paddingBottom="@dimen/legend_padding_vertical"
+            android:contentDescription="@string/cd_legend">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginEnd="12dp">
+                <View
+                    android:layout_width="@dimen/legend_dot_size"
+                    android:layout_height="@dimen/legend_dot_size"
+                    android:background="@drawable/legend_dot_central"
+                    android:layout_marginEnd="@dimen/legend_item_gap" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/legend_selected_ubid"
+                    android:textColor="@color/legend_text"
+                    android:textSize="@dimen/legend_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginEnd="12dp">
+                <View
+                    android:layout_width="@dimen/legend_dot_size"
+                    android:layout_height="@dimen/legend_dot_size"
+                    android:background="@drawable/legend_dot_dept"
+                    android:layout_marginEnd="@dimen/legend_item_gap" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/legend_linked_dept"
+                    android:textColor="@color/legend_text"
+                    android:textSize="@dimen/legend_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <View
+                    android:layout_width="@dimen/legend_dot_size"
+                    android:layout_height="@dimen/legend_dot_size"
+                    android:background="@drawable/legend_dot_review"
+                    android:layout_marginEnd="@dimen/legend_item_gap" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/legend_review"
+                    android:textColor="@color/legend_text"
+                    android:textSize="@dimen/legend_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <include
+            android:id="@+id/bottom_nav_layout"
+            layout="@layout/layout_bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+</LinearLayout>
