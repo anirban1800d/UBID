@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--  Checked / selected state (active tab)  -->
-    <item android:state_checked="true" android:color="#4db8ff"/>
-    <!--  Pressed state (matches active color for immediate feedback)  -->
-    <item android:state_pressed="true" android:color="#4db8ff"/>
-    <!--  Default / inactive state  -->
-    <item android:color="#4d6a85"/>
-</selector>

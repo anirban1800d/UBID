@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Logo inner card: solid brand blue, rounded -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle">
-    <corners android:radius="@dimen/radius_logo_card" />
-    <solid android:color="@color/brand_blue" />
-</shape>

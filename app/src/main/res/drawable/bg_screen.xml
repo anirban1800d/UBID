@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Screen background: deep navy #101E2E -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/bg_screen" />
-</shape>
